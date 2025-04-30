@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Basic To-do List",
+    "version": "2.2",
+    "description": "A to-do list add-on",
+    "permissions": [
+      "storage"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
+  
